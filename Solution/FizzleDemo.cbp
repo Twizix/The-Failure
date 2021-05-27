@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FizzleDemo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="../bin/Win32/Debug/FizzleDemo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Intermediates/" />
+				<Option deps_output="../bin/Win32/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-O0" />
+					<Add option="-Wall" />
+					<Add directory="../ThirdParty/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="Fizzle/$(Platform)/$(Configuration)/Fizzle.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../ThirdParty/lib/" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="..\copydeps bin\Win32\Debug\FizzleDemo.exe ThirdParty\lib\OpenAL\Win32\Debug\OpenAL32.dll BUILD\Win32\Debug\" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="../bin/x64/Debug/FizzleDemo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Intermediates/" />
+				<Option deps_output="../bin/x64/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_DEBUG" />
+					<Add option="-O0" />
+					<Add option="-Wall" />
+					<Add directory="../ThirdParty/include/" />
+				</Compiler>
+				<Linker>
+					<Add library="Fizzle/$(Platform)/$(Configuration)/Fizzle.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../ThirdParty/lib/" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="..\copydeps bin\x64\Debug\FizzleDemo.exe ThirdParty\lib\OpenAL\x64\Debug\OpenAL32.dll BUILD\x64\Debug\" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release x64">
+				<Option output="../bin/x64/Release/FizzleDemo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Intermediates/" />
+				<Option deps_output="../bin/x64/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_WINDOWS" />
+					<Add option="-DNDEBUG" />
+					<Add option="-O1" />
+					<Add option="-Wall" />
+					<Add directory="../ThirdParty/include/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Fizzle/$(Platform)/$(Configuration)/Fizzle.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../ThirdParty/lib/" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="..\copydeps bin\x64\Release\FizzleDemo.exe ThirdParty\lib\OpenAL\x64\Release\OpenAL32.dll BUILD\x64\Release\" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="../bin/Win32/Release/FizzleDemo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Intermediates/" />
+				<Option deps_output="../bin/Win32/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_WINDOWS" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-O1" />
+					<Add option="-Wall" />
+					<Add directory="../ThirdParty/include/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="Fizzle/$(Platform)/$(Configuration)/Fizzle.lib" />
+					<Add library="winmm.lib" />
+					<Add library="comctl32.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="../ThirdParty/lib/" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="..\copydeps bin\Win32\Release\FizzleDemo.exe ThirdParty\lib\OpenAL\Win32\Release\OpenAL32.dll BUILD\Win32\Release\" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="../Source/bossProjectile.cpp" />
+		<Unit filename="../Source/bossProjectile.h" />
+		<Unit filename="../Source/checkpoint.cpp" />
+		<Unit filename="../Source/checkpoint.h" />
+		<Unit filename="../Source/main.cpp" />
+		<Unit filename="../Source/newPlatform.cpp" />
+		<Unit filename="../Source/newPlatform.h" />
+		<Unit filename="../Source/player.cpp" />
+		<Unit filename="../Source/player.h" />
+		<Unit filename="../Source/projectile.cpp" />
+		<Unit filename="../Source/projectile.h" />
+		<Unit filename="../Source/spike.cpp" />
+		<Unit filename="../Source/spike.h" />
+		<Unit filename="../Source/trampoline.cpp" />
+		<Unit filename="../Source/trampoline.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

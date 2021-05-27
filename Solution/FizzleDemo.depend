@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1460438882 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\bossprojectile.cpp
+	"bossProjectile.h"
+
+1460438900 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\bossprojectile.h
+
+1459884342 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\checkpoint.cpp
+	"checkpoint.h"
+
+1459884332 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\checkpoint.h
+
+1458680698 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\newplatform.cpp
+	"newPlatform.h"
+
+1459204980 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\newplatform.h
+	<iostream>
+
+1460383780 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\player.cpp
+	"player.h"
+
+1459735780 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\player.h
+	<iostream>
+
+1460399440 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\projectile.cpp
+	"projectile.h"
+	<iostream>
+
+1460399456 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\projectile.h
+	<iostream>
+
+1458329358 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\spike.cpp
+	"spike.h"
+
+1459205026 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\spike.h
+
+1459734846 source:d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\trampoline.cpp
+	"trampoline.h"
+
+1459901172 d:\---------school---------\semester 0 games\the failure (publicbetarelease)\source\trampoline.h
+

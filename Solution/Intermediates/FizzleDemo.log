@@ -1,0 +1,9 @@
+﻿Fizzle.lib(FzlError.obj) : error LNK2019: unresolved external symbol __imp_vsnprintf referenced in function FzlErrorAssertion
+Fizzle.lib(init.obj) : error LNK2001: unresolved external symbol __imp_vsnprintf
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol __imp_vsnprintf
+Fizzle.lib(FzlLogging.obj) : error LNK2019: unresolved external symbol __imp_printf referenced in function FzlLogWrite
+Fizzle.lib(FzlLogging.obj) : error LNK2019: unresolved external symbol __imp_sprintf referenced in function FzlLogWrite
+Fizzle.lib(FzlLogging.obj) : error LNK2019: unresolved external symbol __imp_vsprintf referenced in function FzlLogWrite
+Fizzle.lib(context.obj) : error LNK2019: unresolved external symbol __imp_sscanf referenced in function parseVersionString
+MSVCRTD.lib(vsnprintf.obj) : error LNK2001: unresolved external symbol __imp__vsnprintf
+D:\---------School---------\Semester 0 Games\The Failure (PublicBetaRelease)\Solution\..\bin\x64\Debug\FizzleDemo.exe : fatal error LNK1120: 6 unresolved externals
